@@ -1,28 +1,28 @@
 // App.tsx
 import React from 'react';
-import './App.css';
 import { Container } from  'semantic-ui-react'; 
 import AboutMe from './components/AboutMe';
 import ProjectDropdown from './components/ProjectDropdown';
 
-import projectData from './data/projectData.json';
-import unbProjects from './data/unbProjects.json'; 
-import courseProjects from './data/courseProjects.json';
-import personalProjects from './data/personalProjects.json';
+import './App.css';
 
-
-function App() {
-  const personalProjects = projectData.filter((project) => project.category === 'Pessoais');
-  const universityProjects = projectData.filter((project) => project.category === 'UnB');
-  const courseProjects = projectData.filter((project) => project.category === 'Cursos');
+import CourseProjects from './components/CourseProjects';
+import PersonalProjects from './components/PersonalProjects';
+import UniversityProjects from './components/UniversityProjects';
+const App: React.FC = () => {
 
   return (
     <div className="App">
       <h1>Felipe Sousa</h1>
-      <AboutMe />
-      <ProjectDropdown category="Pessoais" projects={personalProjects} />
-      <ProjectDropdown category="UnB" projects={universityProjects} />
-      <ProjectDropdown category="Cursos" projects={courseProjects} />
+      <Container>
+        <AboutMe />
+        <h2>Projetos Pessoais</h2>
+        <PersonalProjects />
+        <h2>Projetos da UnB</h2>
+        <UniversityProjects />
+        <h2>Projetos de Cursos</h2>
+        <CourseProjects />
+      </Container>
     </div>
   );
 }

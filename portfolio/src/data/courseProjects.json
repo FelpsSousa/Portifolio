@@ -1,13 +1,13 @@
 [
   {
     "title": "Projeto de Curso 1",
-    "category": "Educação",
+    "category": "Cursos",
     "description": "Descrição do Projeto de Curso 1.",
-    "images": ["java-inicializando-projeto.jpg"]
+    "images": ["java-inicilizando-projeto.jpg"]
   },
   {
     "title": "Projeto de Curso 2",
-    "category": "Tecnologia",
+    "category": "Cursos",
     "description": "Descrição do Projeto de Curso 2.",
     "images": ["java-todo-list-0.jpg"]
   }
