@@ -1,15 +1,15 @@
+// components/Project.tsx
 import React from 'react';
 import Slider from 'react-slick';
 
-interface ProjectProps {
-  projectData: {
-    title: string;
-    description: string;
-    images: string[];
-  };
+export interface ProjectData {
+  title: string;
+  category: string;
+  description: string;
+  images: string[];
 }
 
-const Project: React.FC<ProjectProps> = ({ projectData }) => {
+const Project: React.FC<{ projectData: ProjectData }> = ({ projectData }) => {
   const settings = {
     dots: true,
     infinite: true,

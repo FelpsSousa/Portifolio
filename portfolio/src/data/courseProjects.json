@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Projeto de Curso 1",
+    "category": "Educação",
+    "description": "Descrição do Projeto de Curso 1.",
+    "images": ["java-inicializando-projeto.jpg"]
+  },
+  {
+    "title": "Projeto de Curso 2",
+    "category": "Tecnologia",
+    "description": "Descrição do Projeto de Curso 2.",
+    "images": ["java-todo-list-0.jpg"]
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Projeto Pessoal 1",
+    "category": "Hobby",
+    "description": "Descrição do Projeto Pessoal 1.",
+    "images": ["java-todo-list-1.jpg"]
+  },
+  {
+    "title": "Projeto Pessoal 2",
+    "category": "Desenvolvimento Pessoal",
+    "description": "Descrição do Projeto Pessoal 2.",
+    "images": ["java-todo-list-2.jpg"]
+  }
+]

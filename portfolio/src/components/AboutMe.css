@@ -1,0 +1,54 @@
+/* AboutMe.css */
+
+/* Estilo para o segment vertical */
+.about-me-segment {
+  background-color: #f0f0f0;
+  padding: 20px;
+
+  margin-bottom: 24px;
+}
+
+/* Estilo para os ícones */
+.about-me-icon {
+  font-size: 24px;
+  color: #007bff;
+}
+
+/* Estilo para o cabeçalho "Sobre Mim" */
+.about-me-header {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
+/* Estilo para os parágrafos */
+.about-me-paragraph {
+  font-size: 16px;
+  background-color: orange;
+  padding: 36px;
+  color: blue;
+  
+}
+
+/* Estilo para as listas de educação e habilidades */
+.about-me-list {
+  list-style: none;
+  padding: 0;
+}
+
+.about-me-list-item {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/* Estilo para as habilidades em lista horizontal */
+.about-me-horiz-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-me-horiz-list-item {
+  margin-right: 10px;
+  font-size: 18px;
+}
