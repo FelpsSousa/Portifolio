@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 interface DropdownProps {
   title: string;
-  constent: JSX.Element;
+  content: JSX.Element;
 }
 
 const Dropdown: React.FC<DropdownProps> = ({ title, content }) => {

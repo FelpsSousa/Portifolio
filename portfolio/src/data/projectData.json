@@ -1,0 +1,12 @@
+[
+  {
+    "title": "upload.ai",
+    "description": "Este projeto é uma aplicação de inteligência artificial que gera transcrições de vídeos, títulos e palavras-chave para postagens no YouTube.",
+    "images": ["upload-ai-tela-principal.png", "upload-ai-video-carregado.png", "upload-ai-gerando-titulo.png","upload-ai-gerando-descricao.png", "upload-ai-saida-descricao.png"]
+  },
+  {
+    "title": "TO DO List - JAVA",
+    "description": "O Projeto To-Do List, desenvolvido durante a semana de eventos da Rocketseat. Neste projeto, exploramos a construção do back-end de uma aplicação de lista de tarefas, aprendendo conceitos essenciais do Spring Boot, criando uma aplicação funcional.",
+    "images": ["java-inicilizando-projeto.jpg", "java-todo-list-0.jpg"]
+  }
+]
